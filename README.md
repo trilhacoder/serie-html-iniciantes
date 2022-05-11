@@ -1,4 +1,4 @@
-# serie-html-iniciantes
+# Série HTML para iniciantes
 Repositório da Série HTML para Iniciantes no YouTube
 
 - Texto:
