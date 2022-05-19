@@ -5,71 +5,91 @@
 		<title>Minha primeira página HTML</title>
 	</head>
 	<body>
-		<h1>Meu primeiro título no html</h1>
-		<h2>Um subtitulo</h2>
-		<p>Meu primeiro parágrafo usando a tag p.</p>
-		<a href="http://trilhafront.com.br">TrilhaFront</a>
+		<header>
+			<img src="imagem.png" alt="">
+			<nav>
+				<ul>
+					<li><a href="">Link1</a></li>
+					<li><a href="">Link2</a></li>
+					<li><a href="">Link3</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section>
+				<h1>Meu primeiro título no html</h1>
+				<h2>Um subtitulo</h2>
+				<p>Meu primeiro parágrafo usando a tag p.</p>
+				<a href="http://trilhafront.com.br">TrilhaFront</a>
+			</section>
+			<section>
+				<table>
+					<thead>
+						<tr>
+							<th>nome</th>
+							<th>idade</th>
+						</tr>				
+					</thead>
+					<tbody>
+						<tr>
+							<td>franklin</td>
+							<td>33</td>
+						</tr>
+						<tr>
+							<td>joao</td>
+							<td>50</td>
+						</tr>
+						<tr>
+							<td>maria</td>
+							<td>27</td>
+						</tr>
+					</tbody>
+				</table>
 
-		<table>
-			<thead>
-				<tr>
-					<th>nome</th>
-					<th>idade</th>
-				</tr>				
-			</thead>
-			<tbody>
-				<tr>
-					<td>franklin</td>
-					<td>33</td>
-				</tr>
-				<tr>
-					<td>joao</td>
-					<td>50</td>
-				</tr>
-				<tr>
-					<td>maria</td>
-					<td>27</td>
-				</tr>
-			</tbody>
-		</table>
+				<form>
+					<label for="nome">Nome</label>
+					<input name="nome" id="nome" type="text">
 
-		<form>
-			<label for="nome">Nome</label>
-			<input name="nome" id="nome" type="text">
+					<label for="idade">Idade</label>
+					<input name="idade" id="idade" type="number">
 
-			<label for="idade">Idade</label>
-			<input name="idade" id="idade" type="number">
+					<label for="data">Data</label>
+					<input name="data" type="date">
 
-			<label for="data">Data</label>
-			<input name="data" type="date">
+					<label for="mensagem">Mensagem</label>
+					<textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
 
-			<label for="mensagem">Mensagem</label>
-			<textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+					<button>enviar</button>
 
-			<input type="submit" value="enviar">
-		</form>
+				</form>
+			</section>
+			<section>
+				<ul>
+					<li>item1</li>
+					<li>item2</li>
+					<li>item3</li>
+				</ul>
+				<ol>
+					<li>item1</li>
+					<li>item2</li>
+					<li>item3</li>
+				</ol>
 
-		<ul>
-			<li>item1</li>
-			<li>item2</li>
-			<li>item3</li>
-		</ul>
-		<ol>
-			<li>item1</li>
-			<li>item2</li>
-			<li>item3</li>
-		</ol>
+				<div>
+					<img src="" alt="">
+					<p>descricao</p>
+				</div>
+				<span>texto</span>
 
-		<div>
-			<img src="" alt="">
-			<p>descricao</p>
-		</div>
-		<span>texto</span>
+				<p>este eh um paragrafo <span>isso eh um span</span></p>
 
-		<p>este eh um paragrafo <span>isso eh um span</span></p>
-
-		<img src="imagem.png" alt="Notebook">
-		<audio controls src="audio.mp3">audio nao suportado</audio>
-		<video controls src="video.mp4">video nao suportado</video>
+				<img src="imagem.png" alt="Notebook">
+				<audio controls src="audio.mp3">audio nao suportado</audio>
+				<video controls src="video.mp4">video nao suportado</video>
+			</section>
+		</main>
+		<footer>
+			@Criado por Franklin de Oliveira 2022
+		</footer>
 	</body>
 </html>
